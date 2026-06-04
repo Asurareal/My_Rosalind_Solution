@@ -1,4 +1,4 @@
-def file_txt(path):
+def read_file(path):
   with open(path, 'r') as f:
     return f.read().strip()
 
@@ -15,4 +15,4 @@ def parse_fasta(path):
     return sequences
 if __name__ == "__main__":
     print(parse_fasta("/content/rosalind_gc.txt"))
-    print(file_txt("/content/rosalind_rna.txt"))
+    print(read_file("/content/rosalind_rna.txt"))
