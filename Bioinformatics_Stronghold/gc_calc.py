@@ -1,4 +1,13 @@
-
+"""
+GC percentage calculator
+direct use direction:
+"""
+# after cloning
+"""
+from Bioinformatics_Stronghold.utility import parse_fasta
+from Bioinformatics_Stronghold.gc_calc import gc_calc
+print(gc_calc(parse_fasta('/content/rosalind_gc (4).txt')))
+"""
 
 def gc_calc(parsed_fasta_file): # should put the dictionary output from parse_fasta utility in it
     highest_percentage = -1.0 #as gc percent could never be negative
