@@ -1,4 +1,4 @@
-# My_Rosalind_Solution
+# BIOINFORMATICS REUSABLE TOOLS FROM THE ROSALIND PROBLEMS
 link to my profile: https://rosalind.info/users/asura@og/
 ### work in progress.... 
-
+### NOTE THIS REPO SHOULD ONLY BE USED AS A TOOL NOT AS COPY PASTE ANSWER FOR THE ROSALIND PROBLEMS
