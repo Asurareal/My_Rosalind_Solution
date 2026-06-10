@@ -14,5 +14,5 @@ def parse_fasta(path):
         sequences[header] = dna_sequence 
     return sequences
 if __name__ == "__main__":
-    print(parse_fasta("/content/rosalind_gc.txt"))
-    print(read_file("/content/rosalind_rna.txt"))
+    print(parse_fasta("/content/FASTA.txt"))
+    print(read_file("/content/file.txt"))
