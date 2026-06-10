@@ -1,6 +1,6 @@
 def read_file(path):
-  with open(path, 'r') as f:
-    return f.read().strip()
+    with open(path, 'r') as f:
+        return f.read().strip()
 
 def parse_fasta(path):
     with open(path, 'r') as f:
