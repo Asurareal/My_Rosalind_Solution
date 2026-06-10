@@ -8,4 +8,4 @@ def counting_point_mutation(path):
             count += 1
     return count
 if __name__ == "__main__":
-    print(counting_point_mutation("/content/rosalind_hamm (1).txt"))
+    print(counting_point_mutation("/content/file.txt"))
