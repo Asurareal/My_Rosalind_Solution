@@ -20,9 +20,9 @@ def gc_calc(parsed_fasta_file): # should put the dictionary output from parse_fa
             highest_percentage = percentage
             highest_id = header
     print(f"\nHIGHEST PERCENTAGE\n{highest_id}\n{highest_percentage:.6f}")
-    return "copy only the highest percentage part for rosalind answer"
+    return "c"
 if __name__ == "__main__":
     import sys
-    sys.path.append('/content/My_Rosalind_Solution/Bioinformatics_Stronghold')
+    sys.path.append('path')
     from utility import parse_fasta
-    gc_calc(parse_fasta('/content/rosalind_gc.txt'))
+    gc_calc(parse_fasta('path to file'))
